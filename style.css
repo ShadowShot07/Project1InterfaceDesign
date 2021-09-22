@@ -1,6 +1,7 @@
+/* -------------------------- Body ---------------------------------- */
 body {
-    width: 30%;
-    height: 30%;
+    width: 70%;
+    height: 70%;
     margin: auto;
 
     border: 1px solid black;
@@ -27,6 +28,7 @@ div{
     padding: 2%;
 }
 
+/* ---------------------------  Header --------------------------------- */
 body div div header{
     display:flex;
     justify-content: center;
@@ -41,6 +43,38 @@ body div div header{
     box-shadow: 0px 1px 25px 4px rgba(0,0,0,1);
 }
 
+/* ---------------------------  Nav ---------------------------------- */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li:nth-child(4n){
+    float:right
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+/* ---------------------------  Content -------------------------------- */
+
+
 body div div aside{
     background-color: #E5ECEF;
     opacity: 0.90;
@@ -48,8 +82,30 @@ body div div aside{
     border: 10px solid transparent;
     border-image: url(img/borde.jpg) 30 round;
 
+    width: 30%;
+  
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+
+    position: static;
 }
 
+body div div section, article{
+    width: 63%;
+
+    background-color: #E5ECEF;
+    opacity: 0.90;
+
+    border: 10px solid transparent;
+    border-image: url(img/borde.jpg) 30 round;
+}
+
+body div div article{
+    margin-top: 1%;
+}
+
+/* ---------------------------  Footer -------------------------------- */
 
 
 
