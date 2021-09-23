@@ -82,7 +82,54 @@
             <aside>
                 <h3>Famous Pictures</h3>
                 <div>
- 
+                    <div>
+                        <img id="joven" src="img/lajovendelaperla.jpg" width="30" height="30">
+                        <img id="scream" src="img/scream.png" width="30" height="30">
+                        <img id="estrellada" src="img/lanocheestrellada.jpg" width="30" height="30">
+                        <img id="meninas" src="img/LasMeninas.jpg" width="30" height="30">
+                        <img id="manzana" src="img/señormanzana.jpg" width="30" height="30">
+                    </div>
+                    <button onclick="joven()">GirlPearl</button>
+                    <button onclick="scream()">Scream</button>
+                    <button onclick="estrellada()">StarryNight</button>
+                    <button onclick="meninas()">Meninas</button>
+                    <button onclick="manzana()">SonOfMan</button>
+                    <p>Better view of the paintings</p>
+                    <canvas id="myCanvas" width="350" height="400" style="border:1px solid #d3d3d3;"> </canvas>
+
+
+                    <script>
+                        function joven() {
+                            var c = document.getElementById("myCanvas");
+                            var ctx = c.getContext("2d");
+                            var img = document.getElementById("joven");
+                            ctx.drawImage(img, 0, 0);
+                        }
+                        function scream() {
+                            var c = document.getElementById("myCanvas");
+                            var ctx = c.getContext("2d");
+                            var img = document.getElementById("scream");
+                            ctx.drawImage(img, 0, 0);
+                        }
+                        function estrellada() {
+                            var c = document.getElementById("myCanvas");
+                            var ctx = c.getContext("2d");
+                            var img = document.getElementById("estrellada");
+                            ctx.drawImage(img, 0, 0);
+                        }
+                        function meninas() {
+                            var c = document.getElementById("myCanvas");
+                            var ctx = c.getContext("2d");
+                            var img = document.getElementById("meninas");
+                            ctx.drawImage(img, 0, 0);
+                        }
+                        function manzana() {
+                            var c = document.getElementById("myCanvas");
+                            var ctx = c.getContext("2d");
+                            var img = document.getElementById("manzana");
+                            ctx.drawImage(img, 0, 0);
+                        }
+                    </script>
                 </div>
             </aside>
 
@@ -98,7 +145,7 @@
                     <video src="videos/Hobbit_AudioLlorndo.mp4" controls autoplay width="100%"></video>
                 </div>
                 <div>
-                    <video src="#" controls autoplay width="100%"></video>
+                    <video src="videos/StarWars_StarTrek.mp4" controls autoplay width="100%"></video>
                 </div>
             </section>
 
@@ -121,7 +168,7 @@
                 <div>
                     Realizado por Javier Vera Su&aacute;rez y G&eacute;nova Rodr&iacute;guez V&aacute;zquez.
                     <div>
-                        GitHub: 
+                        GitHub:
                         <a href="https://github.com/ShadowShot07">ShadowShot07</a>
                         <a href="https://github.com/GRV-264">GRV-264</a>
                     </div>
