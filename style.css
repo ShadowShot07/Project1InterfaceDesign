@@ -36,6 +36,10 @@ body div div header{
     text-align: center;
 
     background-color: #AACAD8;
+    background-image: url("img/logo1.png");
+    background-position: left;
+    background-size: 15%;
+    background-repeat: no-repeat;
     opacity: 0.90;
 
     -webkit-box-shadow: 0px 1px 25px 4px rgba(0,0,0,1);
@@ -44,7 +48,7 @@ body div div header{
 }
 
 /* ---------------------------  Nav ---------------------------------- */
-ul {
+body div div nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,15 +58,15 @@ ul {
     cursor : pointer;
 }
 
-li:nth-child(4n){
+body div div nav ul li:nth-child(4n){
     float:right
 }
   
-li {
+body div div nav ul li {
     float: left;
 }
   
-li a {
+body div div nav ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -70,15 +74,15 @@ li a {
     text-decoration: none;
 }
   
-li a:hover {
+body div div nav ul li a:hover {
     background-color: #111;
 }
 
-nav li>ul{
+body div div nav li>ul{
     display:none;
 }
 
-nav li:hover>ul{
+body div div nav li:hover>ul{
     display:block;
     position:absolute;
     
