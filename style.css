@@ -93,8 +93,6 @@ body div div nav li:hover>ul{
 
 
 /* ---------------------------  Content -------------------------------- */
-
-
 body div div aside{
     background-color: #E5ECEF;
     opacity: 0.90;
@@ -110,9 +108,32 @@ body div div aside{
     background-color: lightgray;
 
     position: static;
+    text-align: center;
 }
 
-body div div section, article{
+button{
+    text-decoration: none;
+    background-color: #faeddc;
+    padding: 1%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 1%;
+    color: #111;
+
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+button:hover{
+    background-color: #596d94;
+    color: white;
+}
+
+body div div section{
     width: 63%;
 
     background-color: #E5ECEF;
@@ -124,6 +145,33 @@ body div div section, article{
 
 body div div article{
     margin-top: 1%;
+
+    width: 63%;
+
+    background-color: #E5ECEF;
+    opacity: 0.90;
+
+    border: 10px solid transparent;
+    border-image: url(img/borde.jpg) 30 round;
+
+    text-align: center;
+
+    background: rgb(170,202,216);
+    background: linear-gradient(90deg, rgba(170,202,216,1) 0%, rgba(229,236,239,1) 49%, rgba(170,202,216,1) 100%);
+}
+
+body div div article div{
+    margin-top: 1%;
+
+    width: 63%;
+
+    background-color: #E5ECEF;
+    opacity: 0.90;
+
+    border: 10px solid transparent;
+    border-image: url(img/borde.jpg) 30 round;
+
+    text-align: center;
 }
 
 /* ---------------------------  Footer -------------------------------- */
@@ -171,5 +219,4 @@ footer a:hover{
     background-color: #596d94;
     color: white;
 }
-
 
